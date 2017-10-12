@@ -7,6 +7,6 @@
   - Gulp/Watch
 
 ### To run
-- After clone repository, you must verified node installed on your machine.
+- After clone repository, you must verified have node installed on your machine: `node -v` on CLI.
 - An then run `npm install`
 - Finally, execute `gulp`
