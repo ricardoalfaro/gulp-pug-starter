@@ -1,0 +1,58 @@
+/*FOOTER*
+------------------------*/
+.footer {
+  height: 100px;
+  background-color: $main-color;
+  .logo_footer{
+    img{
+      margin-top: 9%;
+      max-height: 50px;
+    }
+  }
+  .social{
+    padding-top: 20px;
+    ul.links{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li{
+        display: inline-block;
+        margin-right: 15px;
+        a{
+          color: white;
+        }
+      }
+    }
+    ul.icons_social{
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li{
+        display: inline-block;
+        margin: 4px 10px;
+        a{
+          display: block;
+          width: 26px;
+          height: 26px;
+          background: url('../img/sprite_social.svg') no-repeat;
+          &.facebook{
+            background-position: 0 0;
+          }
+          &.twitter{
+            background-position: -35px 0;
+          }
+          &.vimeo{
+            background-position: -67px 0;
+          }
+          &.github{
+            background-position: -103px 0;
+          }
+          &.flikr{
+            background-position: -137px 0;
+          }
+        }
+      }
+    }
+  }
+}

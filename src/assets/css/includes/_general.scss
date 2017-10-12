@@ -1,0 +1,47 @@
+/*  VARIABLES DE COLOR
+–––––––––––––––––––––––––––*/
+
+$main-color: #3E4349;
+$second-color: #69B42E;
+
+
+/*  GENERALES
+–––––––––––––––––––––––––––*/
+body {
+  font-family: 'Oswald', Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ Normalize ----- */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+a{
+  transition: all .25s ease-in-out;
+}
+
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+}
+
+h3, h4, h5, h6, p, a{
+  font-family: 'Dosis', sans-serif;
+}
+
+/* ------ Home ----- */
+
+.main-content{
+  background-color: #f1f1f1;
+  &:nth-child(odd){
+    background-color: #f1f1f1;
+  }
+}
