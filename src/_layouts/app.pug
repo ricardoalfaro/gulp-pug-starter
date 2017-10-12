@@ -1,20 +1,20 @@
 doctype html
 html(lang="es")
   head
-    title= base.title
+    title= data.title
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no")
-    meta(name='description', content= base.description)
-    meta(name='author', content= base.autores)
-    meta(property='og:title', content= base.title)
-    //meta(property='og:description', content= base.description)
-    //meta(property='og:image', content='/assets/img/logo-starsconf-square.jpg')
-    meta(property='og:url', content='http://www.continuumhq.com')
-    meta(name='twitter:title', content= base.title)
-    //meta(name='twitter:description', content= base.description)
-    //meta(name='twitter:image', content='/assets/img/logo-starsconf-square.jpg')
-    //meta(name='twitter:card', content='summary_large_image')
-    title base.title
+    meta(name='description', content= data.description)
+    meta(name='author', content= data.autores)
+    meta(property='og:title', content= data.title)
+    meta(property='og:description', content= data.description)
+    meta(property='og:image', content='/assets/img/logo.svg')
+    meta(property='og:url', content='http://www.ricardoalfaro.cl')
+    meta(name='twitter:title', content= data.title)
+    meta(name='twitter:description', content= data.description)
+    meta(name='twitter:image', content='/assets/img/logo.svg')
+    meta(name='twitter:card', content= data.summary_large_image)
+    title data.title
     link(rel='icon', type='image/x-icon', href='favicon.ico')
     link(rel='shortcut icon' href='/favicon.ico' type='image/x-icon')
 
